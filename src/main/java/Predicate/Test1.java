@@ -15,6 +15,14 @@ public class Test1 {
         System.out.println("Print all numbers greater than 2");
         m1(p2,x);
 
+        System.out.println("Print all numbers greater than 2 and even");
+        m1(p2.and(p1),x);
+
+        System.out.println("Print all odd numbers");
+        m1(p1.negate(),x);
+
+        System.out.println("Print all greater than 2 or even");
+        m1(p1.or(p2),x);
     }
 
     public static void m1(Predicate <Integer> p,int [] x){
