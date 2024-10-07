@@ -8,4 +8,6 @@ public class Test {
         ArrayList<Integer> l1 = new ArrayList<Integer>(Arrays.asList(10,20,30));
         System.out.println(l1);
     }
+
+
 }
