@@ -8,6 +8,6 @@ public class Test {
         Predicate<String> p1 = s -> s.length() > 5;
 
         System.out.println(p.test(100));
-        System.out.println(p1.test("Mohn"));
+        System.out.println(p1.test("Mohan"));
     }
 }
